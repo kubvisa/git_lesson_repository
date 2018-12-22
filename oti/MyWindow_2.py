@@ -175,51 +175,51 @@ class Piano(QMainWindow):
 
     def play(self):
         playsound.playsound('ramsr-1.mp3', True)
-        print(1)
+        #print(1)
 
     def play2(self):
         playsound.playsound('ramsr-3.mp3', True)
-        print(1)
+        #print(1)
 
     def play3(self):
         playsound.playsound('ramsr-5.mp3', True)
-        print(1)
+        #print(1)
 
     def play4(self):
         playsound.playsound('ramsr-6.mp3', True)
-        print(1)
+        #print(1)
 
     def play5(self):
         playsound.playsound('ramsr-8.mp3', True)
-        print(1)
+        #print(1)
 
     def play6(self):
         playsound.playsound('ramsr-10.mp3', True)
-        print(1)
+        #print(1)
 
     def play7(self):
         playsound.playsound('ramsr-12.mp3', True)
-        print(1)
+        #print(1)
 
     def play8(self):
         playsound.playsound('ramsran-2.2.mp3', True)
-        print(1)
+        #print(1)
 
     def play9(self):
         playsound.playsound('ramsr-4.mp3', True)
-        print(1)
+        #print(1)
 
     def play10(self):
         playsound.playsound('ramsr-7.mp3', True)
-        print(1)
+        #print(1)
 
     def play11(self):
         playsound.playsound('ramsr-9.mp3', True)
-        print(1)
+        #print(1)
 
     def play12(self):
         playsound.playsound('ramsr-11.mp3', True)
-        print(1)
+        #print(1)
 
     def closeEvent(self, event):
         self.parent.show()
@@ -248,77 +248,77 @@ class Organ(QMainWindow):
         self.pushButton_2.setGeometry(QtCore.QRect(100, 120, 81, 251))
         self.pushButton_2.setStyleSheet("background-color: rgb(255, 255, 255);\n"
                                         "")
-        self.pushButton_2.clicked.connect(self.play)
+        self.pushButton_2.clicked.connect(self.play2)
         self.pushButton_2.setText("")
 
         self.pushButton_3 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_3.setGeometry(QtCore.QRect(180, 120, 81, 251))
         self.pushButton_3.setStyleSheet("background-color: rgb(255, 255, 255);\n"
                                         "")
-        self.pushButton_3.clicked.connect(self.play)
+        self.pushButton_3.clicked.connect(self.play3)
         self.pushButton_3.setText("")
 
         self.pushButton_4 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_4.setGeometry(QtCore.QRect(260, 120, 81, 251))
         self.pushButton_4.setStyleSheet("background-color: rgb(255, 255, 255);\n"
                                         "")
-        self.pushButton_4.clicked.connect(self.play)
+        self.pushButton_4.clicked.connect(self.play4)
         self.pushButton_4.setText("")
 
         self.pushButton_5 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_5.setGeometry(QtCore.QRect(340, 120, 81, 251))
         self.pushButton_5.setStyleSheet("background-color: rgb(255, 255, 255);\n"
                                         "")
-        self.pushButton_5.clicked.connect(self.play)
+        self.pushButton_5.clicked.connect(self.play5)
         self.pushButton_5.setText("")
 
         self.pushButton_6 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_6.setGeometry(QtCore.QRect(420, 120, 81, 251))
         self.pushButton_6.setStyleSheet("background-color: rgb(255, 255, 255);\n"
                                         "")
-        self.pushButton_6.clicked.connect(self.play)
+        self.pushButton_6.clicked.connect(self.play6)
         self.pushButton_6.setText("")
 
         self.pushButton_7 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_7.setGeometry(QtCore.QRect(500, 120, 81, 251))
         self.pushButton_7.setStyleSheet("background-color: rgb(255, 255, 255);\n"
                                         "")
-        self.pushButton_7.clicked.connect(self.play)
+        self.pushButton_7.clicked.connect(self.play7)
         self.pushButton_7.setText("")
 
         self.pushButton_8 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_8.setGeometry(QtCore.QRect(70, 120, 51, 161))
         self.pushButton_8.setStyleSheet("background-color: rgb(0, 0, 0);\n"
                                         "color: rgb(255, 255, 255);")
-        self.pushButton_8.clicked.connect(self.play)
+        self.pushButton_8.clicked.connect(self.play8)
         self.pushButton_8.setText("")
 
         self.pushButton_9 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_9.setGeometry(QtCore.QRect(150, 120, 51, 161))
         self.pushButton_9.setStyleSheet("background-color: rgb(0, 0, 0);\n"
                                         "color: rgb(255, 255, 255);")
-        self.pushButton_9.clicked.connect(self.play)
+        self.pushButton_9.clicked.connect(self.play9)
         self.pushButton_9.setText("")
 
         self.pushButton_10 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_10.setGeometry(QtCore.QRect(310, 120, 51, 161))
         self.pushButton_10.setStyleSheet("background-color: rgb(0, 0, 0);\n"
                                          "color: rgb(255, 255, 255);")
-        self.pushButton_10.clicked.connect(self.play)
+        self.pushButton_10.clicked.connect(self.play10)
         self.pushButton_10.setText("")
 
         self.pushButton_11 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_11.setGeometry(QtCore.QRect(400, 120, 51, 161))
         self.pushButton_11.setStyleSheet("background-color: rgb(0, 0, 0);\n"
                                          "color: rgb(255, 255, 255);")
-        self.pushButton_11.clicked.connect(self.play)
+        self.pushButton_11.clicked.connect(self.play11)
         self.pushButton_11.setText("")
 
         self.pushButton_12 = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_12.setGeometry(QtCore.QRect(470, 120, 51, 161))
         self.pushButton_12.setStyleSheet("background-color: rgb(0, 0, 0);\n"
                                          "color: rgb(255, 255, 255);")
-        self.pushButton_12.clicked.connect(self.play)
+        self.pushButton_12.clicked.connect(self.play12)
         self.pushButton_12.setText("")
 
         self.setCentralWidget(self.centralwidget)
@@ -336,52 +336,52 @@ class Organ(QMainWindow):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
 
     def play(self):
-        playsound.playsound('ramsr-1.mp3', True)
-        print(1)
+        playsound.playsound('1.mp3', True)
+        #print(1)
 
     def play2(self):
-        playsound.playsound('ramsr-3.mp3', True)
-        print(1)
+        playsound.playsound('3.mp3', True)
+        #print(1)
 
     def play3(self):
-        playsound.playsound('ramsr-5.mp3', True)
-        print(1)
+        playsound.playsound('5.mp3', True)
+        #print(1)
 
     def play4(self):
-        playsound.playsound('ramsr-6.mp3', True)
-        print(1)
+        playsound.playsound('6.mp3', True)
+        #print(1)
 
     def play5(self):
-        playsound.playsound('ramsr-8.mp3', True)
-        print(1)
+        playsound.playsound('8.mp3', True)
+        #print(1)
 
     def play6(self):
-        playsound.playsound('ramsr-10.mp3', True)
-        print(1)
+        playsound.playsound('10.mp3', True)
+        #print(1)
 
     def play7(self):
-        playsound.playsound('ramsr-12.mp3', True)
-        print(1)
+        playsound.playsound('12.mp3', True)
+        #print(1)
 
     def play8(self):
-        playsound.playsound('ramsran-2.2.mp3', True)
-        print(1)
+        playsound.playsound('2.mp3', True)
+        #print(1)
 
     def play9(self):
-        playsound.playsound('ramsr-4.mp3', True)
-        print(1)
+        playsound.playsound('4.mp3', True)
+        #print(1)
 
     def play10(self):
-        playsound.playsound('ramsr-7.mp3', True)
-        print(1)
+        playsound.playsound('7.mp3', True)
+        #print(1)
 
     def play11(self):
-        playsound.playsound('ramsr-9.mp3', True)
-        print(1)
+        playsound.playsound('9.mp3', True)
+        #print(1)
 
     def play12(self):
-        playsound.playsound('ramsr-11.mp3', True)
-        print(1)
+        playsound.playsound('11.mp3', True)
+        #print(1)
 
     def closeEvent(self, event):
         self.parent.show()
